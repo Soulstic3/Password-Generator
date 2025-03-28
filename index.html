@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="frontend/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Crie uma <br /><span>Senha Aleatoria</span></h1>
+      <div class="display">
+        <input type="text" id="password" placeholder="password" />
+        <img src="frontend/images/copy.png" alt="copiar" onclick="copiar()" />
+      </div>
+      <button onclick="gerarSenha()">
+        <img src="frontend/images/generate.png" />Gerar Senha
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
